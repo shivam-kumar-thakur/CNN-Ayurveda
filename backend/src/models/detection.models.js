@@ -9,6 +9,8 @@ const detectSchema = new mongoose.Schema({
         type: String,
         required: true
     }
+},{
+    timestamps: true
 });
 
 // Correct usage: mongoose.model
